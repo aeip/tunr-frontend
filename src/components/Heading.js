@@ -1,7 +1,7 @@
 import React from 'react';
 import './Header.scss'
 
-export const Header = (props) => {
+export const Heading = (props) => {
     return(
         <div className='header-body'>
             <header>

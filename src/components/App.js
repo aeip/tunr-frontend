@@ -1,6 +1,6 @@
 import React, {useState, useEffect} from 'react';
 import './App.scss';
-import {Header} from './Header'
+import {Heading} from './Heading'
 import {Playlist} from './Playlist'
 import {Favoritesong} from './Favoritesong'
 import {Edit} from './Edit'
@@ -91,7 +91,7 @@ function App() {
 
   return (
 		<div className='App'>
-			<Header />
+			<Heading />
 			<Switch>
 				<Route
 					exact
