@@ -12,6 +12,7 @@ export const Edit = (props) => {
     };
 	return (
 		<form onSubmit={handleSubmit}>
+            <label>Title</label>
             <input
                 type="text"
                 name="title"
@@ -19,6 +20,7 @@ export const Edit = (props) => {
                 onChange={handleChange}
             /> 
             <br />
+            <label>Artist</label>
             <input
                 type="text"
                 name="artist"
@@ -26,6 +28,7 @@ export const Edit = (props) => {
                 onChange={handleChange}
             />
             <br />
+            <label>Time</label>
             <input
                 type="text"
                 name="time"
