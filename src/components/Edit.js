@@ -18,18 +18,21 @@ export const Edit = (props) => {
                 value={formData.title}
                 onChange={handleChange}
             /> 
+            <br />
             <input
                 type="text"
                 name="artist"
                 value={formData.artist}
                 onChange={handleChange}
             />
+            <br />
             <input
                 type="text"
                 name="time"
                 value={formData.time}
                 onChange={handleChange}
             />
+            <br />
             <input type='submit' value={props.label} />
         </form>
 	);
