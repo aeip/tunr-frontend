@@ -17,7 +17,7 @@ export const Favoritesong = (props) => {
                 <h4>Time</h4>
             </div>
             <div className='fave-song-panel'>{favoriteSongs === undefined ? loading : favoriteSongs.map((song) => {
-                return (
+                return ( 
                     <Song song={song} selectSong={props.selectSong} deleteSong={props.deleteSong} handleToggle={props.handleToggle} history={props.history} />
                 )
             })}</div>

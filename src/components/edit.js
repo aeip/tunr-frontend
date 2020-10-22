@@ -17,7 +17,7 @@ export const Edit = (props) => {
                 name="title"
                 value={formData.title}
                 onChange={handleChange}
-            />
+            /> 
             <input
                 type="text"
                 name="artist"

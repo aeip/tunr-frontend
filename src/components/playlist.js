@@ -12,7 +12,7 @@ export const Playlist = (props) => {
 						<Song song={song} selectSong={props.selectSong} deleteSong={props.deleteSong} handleToggle={props.handleToggle} history={props.history} />
 					))}
 				</div>
-			</div>
+			</div> 
 		);
     const loading = <h1>Loading...</h1>
     return songs.length > 0 ? loaded() : loading;
