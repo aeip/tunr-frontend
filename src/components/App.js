@@ -2,7 +2,7 @@ import React, {useState, useEffect} from 'react';
 import './App.scss';
 import {Heading} from './Heading'
 import {Playlist} from './Playlist'
-import {Favoritesong} from './favoritesong'
+import {Favoritesong} from './Favoritesong'
 import {Edit} from './Edit'
 // import {AddNewSong} from './AddNewSong'
 import { Route, Switch } from 'react-router-dom';
