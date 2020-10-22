@@ -1,22 +1,24 @@
 .song-body {
-    border-style: solid;
-    max-width: 100%;
+    
+    width: 100%;
+    max-width: 450px;
     margin: auto;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
     .title-artist-time {
-        border-style: solid;
+        
         display: flex;
         justify-content: space-between;
         .title-artist{
-            border-style: solid;
+            width: 60%;
             max-width: 100%;
             display: flex;
-            justify-content: space-between;
+            justify-content: space-around;
         }
     }
     .buttons {
         text-align: left;
+        margin-left: 5%;
     }   
 }
